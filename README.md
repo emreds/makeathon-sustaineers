@@ -6,6 +6,6 @@ Our task was creating a solution for Food Waste.
 Our Team: 
 - Stella Tragianni
 - Xinyu Chen
-- Anastasiaa Nosenko
+- Anastasiia Nosenko
 - Jan Irsperger
 - Emre Demir
