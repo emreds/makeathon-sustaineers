@@ -1,0 +1,13 @@
+apple
+avocado
+banana
+carrot
+cauliflower
+grape
+lemon
+muesli
+orange
+pasta
+potato
+tomato
+zucchini
