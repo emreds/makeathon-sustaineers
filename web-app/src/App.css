@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  margin-left: 2vw;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,147,177,1) 48%, rgba(2,0,36,1) 100%);
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+
+.App-body{
+  background-color: #f4f9fa;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  font-size: calc(3px + 2vmin);
+  color: white;
+}
+
+.Body-cell{
+  margin: 1vh 1vw;
+  padding: 1vh 10vw;
+  /* padding-top: 1vh; */
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  height: 100%;
+  border: 1px solid rgb(110, 109, 109);
+  border-radius: 10px;
+  background-color: #2b2e35;
+}
+
+.Body-ingredients{
+  color: rgb(211, 56, 56);
+}
+
+.Body-cell-recipes{
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.Body-cell-element{
+  margin: 1vh 1vw;
+}
+
+.file-input{
+  display: none;
+}
+
+.Upload-image-preview{
+  max-height: 20vh;
+}
+
+.App-link {
+  color: #61dafb;
+  font-size: calc(1px + 1.8vmin);
+  cursor: pointer;
+}
+
+.removeClass{
+  /* height: 3vh; */
+  margin: 0.2vh;
+  padding: 0.1vh 0.7vw !important;
+}
+
+.tagInputFieldClass{
+  font-size: calc(1px + 1.5vmin);
+}
+
+.tagInputClassInvisible{
+  display: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
